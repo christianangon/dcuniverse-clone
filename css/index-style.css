@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+  padding: 0;  
+  font-family: 'Staatliches', cursive;  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+  
+}
+/* HEADER */
+
+#header{
+    background-color: #1f1f1f; 
+}
+.header-logo{
+    width: 60px;
+    border-radius: 20px;
+    padding-bottom: 2px;
+}
+.header-logo-mobile{
+    display: none;
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    font-size: 18px;
+    transition: transform .2s;
+}
+.nav-link:hover{
+    cursor: pointer;
+    font-style: oblique; 
+    transform:scale(1.5);
+}
+.nav-text{
+    margin-left: 50px;
+}
+
+/* WELCOME TO DC UNIVERSE */
+
+.body-explore{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url(../images/background2.jpg);
+    color: #000000;
+    background-position: center;
+    background-attachment: fixed;
+}
+#body-explore-title{
+    font-size: 60px;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31, .1);
+}
+
+#body-explore-subtitle{
+    font-size: 20px;
+    background-color: rgb(31, 31, 31, .1);
+    justify-content: all;
+}
+
+#body-explore-search{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+#search-container{
+    margin: auto;
+    width: 380px;
+}
+
+/* EXPLORE DC UNIVERSE */
+
+.body-explore-2{
+    padding: 30px;
+}
+#body-explore-title-2{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+}
+#body-explore-subtitle-2{
+    font-size: 15px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+.carousel-inner{
+    padding-top: 10px;
+}
+
+/* JUSTICE LEAGUE MEMBERS */
+
+.body-explore-3{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#body-explore-title-3{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+}
+#body-explore-subtitle-3{
+    font-size: 15px;
+    text-align: center;
+}
+.card-item {
+  margin-bottom: 20px;
+  padding: 0;
+
+}
+.card-body{
+    color: #000000;
+}
+.card-item-size{
+    width: 10rem;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    background-color: #292929;
+}
+.card-item-size:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.card-title{
+    color: white;
+}
+
+.card-main-mobile{
+    display: block;
+}
+.carousel-inner2{
+    padding-top: 10px;
+}
+
+#jlmember-mobile{
+    display: none;
+}
+
+.card-item-size-mobile{
+    width: 15rem;
+    margin: auto;
+    background-color: #292929;
+}
+#footer-backtotop{
+    display: none;
+    text-align: center;
+}
+
+/* KEYFRAMES */
+@keyframes breath {
+    0%   { background-size: 100% auto; }
+    50% { background-size: 120% auto; }
+    100% { background-size: 100% auto; }
+  }
+
+
+
+
+
